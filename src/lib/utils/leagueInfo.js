@@ -190,15 +190,15 @@ export const managers = [
       "tradingScale": 7, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
           },
-  {
-           "roster": 11,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+   {
+           "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Ozzy Berisha",
       "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "New York", // (optional)
       "bio": "We cant decide if Deckys or Nigel are his bigger rival, resident funny guy and Knicks fanatic Ozzy looks to get some wins in his first year",
       "photo": "/managers/Ozzy.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": 1965, // (optional) when did the manager start playing fantasy football
-      "favorite team": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "favoriteTeam": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Nigel", // Can be anything (usually your rival's name)
@@ -208,10 +208,32 @@ export const managers = [
       "favoritePlayer": 5870, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "Make smart trades and try to draft dudes that everyone sleeping on. Put players on trade block constantly",
+      "philosophy": null,
       "tradingScale": 5, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+      "preferredContact": "Email", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
           },
+  // {
+  //          "roster": 11,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+  //     "name": "Ozzy Berisha",
+  //     "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+  //     "location": "New York", // (optional)
+  //     "bio": "We cant decide if Deckys or Nigel are his bigger rival, resident funny guy and Knicks fanatic Ozzy looks to get some wins in his first year",
+  //     "photo": "/managers/Ozzy.jpg", // square ratio recommended (no larger than 500x500)
+  //     "fantasyStart": 1965, // (optional) when did the manager start playing fantasy football
+  //     "favorite team": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+  //     "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+  //     "rival": {
+  //       name: "Nigel", // Can be anything (usually your rival's name)
+  //       link: 4, // manager array number within this array, or null to link back to all managers page
+  //       image: "/managers/Nigel.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+  //     },
+  //     "favoritePlayer": 5870, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+  //     "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+  //     "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+  //     "philosophy": "Make smart trades and try to draft dudes that everyone sleeping on. Put players on trade block constantly",
+  //     "tradingScale": 5, // 1 - 10
+  //     "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+  //         },
   {
            "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Liam Jablonski",
