@@ -180,7 +180,7 @@ export const managers = [
       "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "New York", // (optional)
       "bio": "We cant decide if Deckys or Nigel are his bigger rival, resident funny guy and Knicks fanatic Ozzy looks to get some wins in his first year",
-      "photo": "/managers/Keith.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/Ozzy.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": null, // (optional) when did the manager start playing fantasy football
       "favorite team": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
