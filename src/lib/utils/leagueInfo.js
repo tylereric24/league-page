@@ -303,11 +303,11 @@ export const managers = [
   {
   "roster": 12,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Briston Gordon",
-      "tookOver": 2020, 2022 // (optional) used if a manager took over a team, delete this line or change to null otherwise
+      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Carolina, and all of your hearts", // (optional)
       "bio": "He keeps us safe from fires (he once saved Oprah from her burning jet while shirtless), he has tits the size of Pamela Anderson, hes a dad, and hes everybodys favorite league member. Will Briston return to redeem himself for last years unfortunate season and spend some time with the boys? Or will we all need therapy because we miss him so much? Stay tuned.",
       "photo": "/managers/Briston.jpg", // square ratio recommended (no larger than 500x500)
-      "fantasyStart": null, // (optional) when did the manager start playing fantasy football
+      "fantasyStart": 2020, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "car", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
