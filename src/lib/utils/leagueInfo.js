@@ -7,7 +7,23 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Just a League of a bunch of dudes .</p>
+  <p>FLASH Fantasy Football League Page</p>
+  <p>MEMBERS</p>
+  <p>Eric Tyler</p>
+  <p>Eppy Solano</p>
+  <p>Tyler Deckys</p>
+  <p>Keith Correa</p>
+  <p>Marc Tyler</p>
+  <p>Dan Farnham</p>
+  <p>Liam Jablonski</p>
+  <p>Ken Van-Hese</p>
+  <p>Ozzy Berisha</p>
+  <p>Nigel</p>
+  <p>Ray Santiago</p>
+  <p>Briston Gordon</p>
+  <p></p>
+  <p>Welcome to our league page, take a look around at the managers pages, the blog, or the records!</p>
+  
 `;
 
 /*   STEP 3   */
