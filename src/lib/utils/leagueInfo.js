@@ -181,7 +181,7 @@ export const managers = [
       "location": "New York", // (optional)
       "bio": "We cant decide if Deckys or Nigel are his bigger rival, resident funny guy and Knicks fanatic Ozzy looks to get some wins in his first year",
       "photo": "/managers/Ozzy.jpg", // square ratio recommended (no larger than 500x500)
-      "fantasyStart": null, // (optional) when did the manager start playing fantasy football
+      "fantasyStart": 1965, // (optional) when did the manager start playing fantasy football
       "favorite team": "nyg", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
@@ -248,7 +248,7 @@ export const managers = [
       "bio": "The Korean Enforcer, the injured player magnet. Dan continues to have bad luck with injuries, is this the year his team stays healthy?",
       "photo": "/managers/Dan.jpg", // square ratio recommended (no larger than 500x500)
       "fantasyStart": null, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "ten", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "favoriteTeam": "ne", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Keith", // Can be anything (usually your rival's name)
