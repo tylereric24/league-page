@@ -191,7 +191,7 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
           },
    {
-           "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+           "roster": 11,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Ozzy Berisha",
       "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "New York", // (optional)
