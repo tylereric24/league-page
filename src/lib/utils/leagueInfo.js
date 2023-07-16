@@ -437,12 +437,12 @@ export const managers = [
        "favoriteTeam": "ne", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
        "rival": {
-         name: "Deckys", // Can be anything (usually your rival's name)
-         link: 3, // manager array number within this array, or null to link back to all managers page
-         image: "/managers/Deckys.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
+         name: "Eppy", // Can be anything (usually your rival's name)
+         link: 2, // manager array number within this array, or null to link back to all managers page
+         image: "/managers/Eppy.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
        }, 
-       "favoritePlayer": 1264, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-       "valuePosition": "K", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+       "favoritePlayer": 167, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
+       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
        "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
        "philosophy": "I dont even want to be here", // (optional)
        "tradingScale": 10, // 1 - 10 (optional)
