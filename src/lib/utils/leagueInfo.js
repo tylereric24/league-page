@@ -37,7 +37,7 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
     {
-      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+     
       "managerID": "412670871698677760",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Eric Tyler",
      "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -60,7 +60,7 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      
       "managerID": "608408598661373952",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Epifanio Solano",
       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -83,7 +83,7 @@ export const managers = [
       "preferredContact": "Carrier Pigeon", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      
       "managerID": "608455205654196224",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Tyler Deckys",
       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -106,7 +106,7 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
      {
-     "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+     
       "managerID": "753002428194258944",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Raymond 'Funny Money' Santiago",
       "tookOver": 2021, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -129,7 +129,7 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
   {
-      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      
       "managerID": "703130561639690240",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Nigel",
       "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -152,7 +152,7 @@ export const managers = [
       "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
           },
           {
-      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+     
       "managerID": "608422093989683200",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Marc Tyler",
       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -175,7 +175,7 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
           },
           {
-      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+     
       "managerID": "609191876297318400",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Keith Correa",
       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -198,7 +198,7 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
           },
    {
-      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      
       "managerID": "853464140608540672",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Ozzy Berisha",
       "tookOver": 2023, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -243,7 +243,7 @@ export const managers = [
   //     "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
   //         },
   {
-      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      
       "managerID": "975292897224376320",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Liam Jablonski",
       "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -266,7 +266,7 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
           },
   {
-      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      
       "managerID": "608419570394406912",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Ken Van-Hese",
       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -289,7 +289,7 @@ export const managers = [
       "preferredContact": "Carrier Pigeon", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
           },
   {
-      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      
       "managerID": "608437161317986304",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Dan Farnham",
       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -312,7 +312,6 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
           },
   {
-      "roster": null,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "608408487256489984",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Briston Gordon",
       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -335,7 +334,7 @@ export const managers = [
       "preferredContact": "Carrier Pigeon", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
           },
        {
-       "roster": null,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
+      
        "managerID": "729543132684861440",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "Adrian",
        "tookOver": 2021, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -358,7 +357,7 @@ export const managers = [
        "preferredContact": "Sleeper",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
   {
-       "roster": null,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
+       
        "managerID": "762904634925973504",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "Ryan Marino",
        "tookOver": 2021, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -381,7 +380,7 @@ export const managers = [
        "preferredContact": "Sleeper",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
   {
-       "roster": null,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
+       
        "managerID": "762904634925973504",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "Ranchtan Farmer",
        "tookOver": 2020, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -404,7 +403,7 @@ export const managers = [
        "preferredContact": "Carrier Pigeon",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
   {
-       "roster": null,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
+       
        "managerID": "762904634925973504",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "Roberto Ramses Vasquez",
        "tookOver": null, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -427,7 +426,7 @@ export const managers = [
        "preferredContact": "Carrier Pigeon",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
      },
     {
-       "roster": null,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
+       
        "managerID": "762904634925973504",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
        "name": "BreeCheezze",
        "tookOver": null, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
