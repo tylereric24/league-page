@@ -340,7 +340,7 @@ export const managers = [
        "tookOver": 2021, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "San Diego", // (optional)
        "bio": "Tarnished former member of league best known for spending 20 real dollars to purchase Odell from Berto only to still lose",
-       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
+       "photo": null, // square ratio recommended (no larger than 500x500)
        "fantasyStart": null, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": null, // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -363,7 +363,7 @@ export const managers = [
        "tookOver": 2021, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "San Diego", // (optional)
        "bio": "Former temporary member of league who took over Bertos roster during the Odell scandal of 2021. Unfortunate league champion of 2021. Bailed on us last minute before 2022 draft",
-       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
+       "photo": null, // square ratio recommended (no larger than 500x500)
        "fantasyStart": null, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "sf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -386,7 +386,7 @@ export const managers = [
        "tookOver": 2020, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "San Diego", // (optional)
        "bio": "Former league member of first year of the league. Had an unfortunately bad season and never returned. It is believed that he is now living in a cave in the Himalayas surviving on only buttermilk ranch dressing.",
-       "photo": "/managers/RanchTan.jpg", // square ratio recommended (no larger than 500x500)
+       "photo": "/managers/Ranchtan.jpg", // square ratio recommended (no larger than 500x500)
        "fantasyStart": null, // (optional) when did the manager start playing fantasy football
        "favoriteTeam": "den", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -432,9 +432,9 @@ export const managers = [
        "tookOver": null, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "San Diego", // (optional)
        "bio": "Baby Mama of the commish, emergency replacement manager. Once took over Rays team and won his teams first game of the season. 100% win rate",
-       "photo": "/managers/BreeCheezze.jpg", // square ratio recommended (no larger than 500x500)
+       "photo": "/managers/BreeCheezze.JPG", // square ratio recommended (no larger than 500x500)
        "fantasyStart": null, // (optional) when did the manager start playing fantasy football
-       "favoriteTeam": "lar", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+       "favoriteTeam": "ne", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
        "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
        "rival": {
          name: "Deckys", // Can be anything (usually your rival's name)
